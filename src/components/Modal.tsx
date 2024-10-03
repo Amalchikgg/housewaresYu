@@ -23,7 +23,7 @@ const Modal = ({ className }: Props) => {
         isOpen={open}
         onRequestClose={() => $open(false)}
         contentLabel='Свяжитесь с нами'
-        className='bg-white w-[757px] h-[325px] mobile:w-[293px] tablet:w-[634px] mobile:pt-10 tablet:h-[auto] tablet:pt-[60px] tablet:pb-[60px] tablet:px-[27px] px-[37px] pb-[59px] pt-[58px] relative outline-none' // Стили Tailwind для модалки
+        className='bg-white w-[757px] h-auto mobile:w-[293px] tablet:w-[634px] mobile:pt-10 tablet:h-[auto] tablet:pt-[60px] tablet:pb-[60px] tablet:px-[27px] px-[37px] pb-[49px] pt-[58px] relative outline-none' // Стили Tailwind для модалки
         overlayClassName='fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center' // Стили Tailwind для overlay
       >
         <Image
