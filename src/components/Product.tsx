@@ -25,6 +25,7 @@ const Product = ({
   noneLeftBorder,
   noneRightBorder,
   className,
+  imgMobile,
 }: Props) => {
   return (
     <motion.div
@@ -46,7 +47,7 @@ const Product = ({
           className={`mobile:hidden ${imageClass}`}
         />
         <Image
-          src={`/images/${img}.jpg`}
+          src={`/images/${imgMobile}.jpg`}
           alt='product'
           width={size.w}
           height={size.h}

@@ -158,13 +158,13 @@ export default function Home() {
         </motion.div>
         <div className='flex mb-[140px] tablet:mb-[56px] mobile:mb-[49px] tablet:flex-wrap tablet:gap-y-6 mobile:gap-y-8'>
           <Product
-            size={{ w: 254, h: 414 }}
+            size={{ w: 254, h: 224 }}
             img='product1'
             lost='2'
             text='Разделитель для холодильных полок (2 шт.)'
             price={{ first: "85 000 сум", second: "40 000 сум" }}
-            imageClass='mobile:!h-[224] mobile:w-[138] mobile:mt-[-20px]'
-            imgMobile='product1'
+            imageClass='mobile:!h-[204px] mobile:!w-[128px] mt-[-20px] mobile:mt-0'
+            imgMobile='mobileProduct1'
             noneRightBorder
           />
           <Product
@@ -178,16 +178,16 @@ export default function Home() {
             className='border-r-0 tablet:border-r-[1px]'
           />
           <Product
-            size={{ w: 295, h: 432 }}
+            size={{ w: 213, h: 403 }}
             img='product3'
             lost='2'
             text='Разделитель для холодильных полок (2шт, большой)'
             price={{ first: "75 000 сум", second: "60 000 сум" }}
             imgMobile='product3'
-            imageClass='mobile:!h-[213] mobile:w-[145px] mobile:mt-[-20px]'
+            imageClass='mobile:!h-[13] mobile:w-[130px] mobile:mt-[-25px]'
           />
           <Product
-            size={{ w: 296, h: 394 }}
+            size={{ w: 276, h: 394 }}
             img='product4'
             lost='2'
             text='Наклейки для ковров (фигурные 4 шт.)'
@@ -250,18 +250,18 @@ export default function Home() {
             lost='2'
             text='Держатель для швабры'
             price={{ first: "65 000 сум", second: "50 000 сум" }}
-            imgMobile='mobileProduct5'
+            imgMobile='product5'
             imageClass='mobile:!h-[189px] mobile:w-[129px] '
             noneRightBorder
           />
           <Product
-            size={{ w: 259, h: 432 }}
+            size={{ w: 259, h: 385 }}
             img='product6'
             lost='2'
             text='Силиконовые наклейки для вешалок (20 шт.)'
             price={{ first: "75 000 сум", second: "40 000 сум" }}
             imgMobile='product6'
-            imageClass='mobile:!h-[254px] mobile:w-[191px] mobile:mt-[-20px]'
+            imageClass='mobile:!h-[204px] mobile:!w-[171px] mt-[-7px]'
             className='border-r-0 tablet:border-r-[1px]'
           />
           <Product
