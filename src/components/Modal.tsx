@@ -15,7 +15,7 @@ const Modal = ({ className }: Props) => {
     <>
       <button
         onClick={() => $open(true)}
-        className={`w-[166px] h-[46px] border border-[#1A1921] text-[#1A1921] font-bold text-[20px] tracking-[-1px] ${className}`}
+        className={`w-[166px] h-[46px] border bg-white border-[#1A1921] text-[#1A1921] font-bold text-[20px] tracking-[-1px] ${className}`}
       >
         Заказать
       </button>
