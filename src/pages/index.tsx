@@ -108,6 +108,40 @@ export default function Home() {
           <CountdownTimer />
         </div>
         <div className='bg-[#BBBBBB] h-[1px] w-full mb-[94px] tablet:mb-[59px] mobile:mb-[35px]' />
+        <div className='flex mb-[140px] px-[190px] tablet:px-0 tablet:mb-[56px] mobile:mb-[49px] tablet:flex-wrap tablet:gap-y-6 mobile:gap-y-4'>
+          <Product
+            size={{ w: 254, h: 224 }}
+            img='product1'
+            lost='2'
+            text='Разделитель для холодильных полок (2 шт.)'
+            price={{ first: "85 000 сум", second: "40 000 сум" }}
+            imageClass='mobile:!h-[204px] tablet:!w-[166px] tablet:!h-[270px] mobile:!w-[128px] mt-[-20px] mobile:mt-0'
+            imgMobile='mobileProduct1'
+            className='mobile:!border-r-[1px]'
+            noneRightBorder
+          />
+          <Product
+            size={{ w: 296, h: 394 }}
+            img='product2'
+            lost='2'
+            text='Зажим, крючок для полотенец (2 шт.)'
+            price={{ first: "75 000 сум", second: "40 000 сум" }}
+            imgMobile='product2'
+            imageClass='mobile:!h-[216px] mobile:w-[162px] mt-[-20px]'
+            className=' tablet:border-r-[1px]'
+          />
+          <Product
+            size={{ w: 228, h: 279 }}
+            img='product9'
+            lost='4'
+            text='Карманная шкатулка для украшений'
+            price={{ first: "100 000 сум", second: "50 000 сум" }}
+            imgMobile='product9'
+            imageClass='mobile:!h-[13] mobile:w-[130px] mobile:mt-[-25px] mt-10 tablet:w-[174px] tablet:h-[213px] tablet:mt-3'
+            noneLeftBorder
+            className='mobile:!border-l-[1px]'
+          />
+        </div>
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -156,27 +190,7 @@ export default function Home() {
             </p>
           </div>
         </motion.div>
-        <div className='flex mb-[140px] tablet:mb-[56px] mobile:mb-[49px] tablet:flex-wrap tablet:gap-y-6 mobile:gap-y-8'>
-          <Product
-            size={{ w: 254, h: 224 }}
-            img='product1'
-            lost='2'
-            text='Разделитель для холодильных полок (2 шт.)'
-            price={{ first: "85 000 сум", second: "40 000 сум" }}
-            imageClass='mobile:!h-[204px] mobile:!w-[128px] mt-[-20px] mobile:mt-0'
-            imgMobile='mobileProduct1'
-            noneRightBorder
-          />
-          <Product
-            size={{ w: 296, h: 394 }}
-            img='product2'
-            lost='2'
-            text='Зажим, крючок для полотенец (2 шт.)'
-            price={{ first: "75 000 сум", second: "40 000 сум" }}
-            imgMobile='product2'
-            imageClass='mobile:!h-[216px] mobile:w-[162px]'
-            className='border-r-0 tablet:border-r-[1px]'
-          />
+        <div className='flex mb-[140px] px-[190px] tablet:px-0 tablet:mb-[56px] mobile:mb-[49px] tablet:flex-wrap tablet:gap-y-6 mobile:gap-y-4'>
           <Product
             size={{ w: 213, h: 403 }}
             img='product3'
@@ -184,7 +198,9 @@ export default function Home() {
             text='Разделитель для холодильных полок (2шт, большой)'
             price={{ first: "75 000 сум", second: "60 000 сум" }}
             imgMobile='product3'
-            imageClass='mobile:!h-[13] mobile:w-[130px] mobile:mt-[-25px]'
+            imageClass='mobile:!h-[13] mobile:w-[100px] mobile:!h-[250px] mobile:mt-[-25px] tablet:!w-[160px] tablet:!h-[271px]'
+            noneRightBorder
+            className='mobile:!border-r-[1px]'
           />
           <Product
             size={{ w: 276, h: 394 }}
@@ -193,8 +209,18 @@ export default function Home() {
             text='Наклейки для ковров (фигурные 4 шт.)'
             price={{ first: "125 000 сум", second: "100 000 сум" }}
             imgMobile='product4'
-            imageClass='mobile:!h-[205px] mobile:w-[153px] mobile:mt-[-20px]'
+            imageClass='mobile:!h-[250px] mobile:!w-[223px] mobile:mt-[-24px]'
+          />
+          <Product
+            size={{ w: 264, h: 352 }}
+            img='product5'
+            lost='2'
+            text='Держатель для швабры'
+            price={{ first: "65 000 сум", second: "50 000 сум" }}
+            imgMobile='product5'
+            imageClass='mobile:!h-[189px] mobile:w-[129px] '
             noneLeftBorder
+            className='mobile:!border-l-[1px]'
           />
         </div>
         <motion.div
@@ -243,17 +269,7 @@ export default function Home() {
             className='tablet:block hidden absolute right-[55px] bottom-[-18px] mobile:w-[52px] mobile:bottom-[-5px]'
           />
         </motion.div>
-        <div className='flex mb-[96px] px-[30px] tablet:gap-y-6 tablet:mb-[56px] tablet:flex-wrap tablet:px-0 mobile:gap-y-8 mobile:mb-11'>
-          <Product
-            size={{ w: 264, h: 352 }}
-            img='product5'
-            lost='2'
-            text='Держатель для швабры'
-            price={{ first: "65 000 сум", second: "50 000 сум" }}
-            imgMobile='product5'
-            imageClass='mobile:!h-[189px] mobile:w-[129px] '
-            noneRightBorder
-          />
+        <div className='flex mb-[96px] px-[190px] tablet:gap-y-6 tablet:mb-[56px] tablet:flex-wrap tablet:px-0 mobile:gap-y-8 mobile:mb-11'>
           <Product
             size={{ w: 259, h: 385 }}
             img='product6'
@@ -261,8 +277,8 @@ export default function Home() {
             text='Силиконовые наклейки для вешалок (20 шт.)'
             price={{ first: "75 000 сум", second: "40 000 сум" }}
             imgMobile='product6'
-            imageClass='mobile:!h-[204px] mobile:!w-[171px] mt-[-7px]'
-            className='border-r-0 tablet:border-r-[1px]'
+            imageClass='mobile:!h-[204px] mobile:!w-[171px] mt-[-7px] tablet:w-[190px] tablet:h-[250px] tablet:mt-3'
+            className=' tablet:border-r-[1px]'
           />
           <Product
             size={{ w: 257, h: 388 }}
@@ -271,7 +287,9 @@ export default function Home() {
             text='Лопатка для сыпучих (2 шт.)'
             price={{ first: "85 000 сум", second: "50 000 сум" }}
             imgMobile='product7'
-            imageClass='mobile:!h-[204px] mobile:w-[153px] mobile:mt-[-20px]'
+            imageClass='mobile:!h-[204px] mobile:w-[153px] mobile:mt-[0px] tablet:w-[200px] tablet:h-[250px]'
+            noneLeftBorder
+            className='mobile:!border-l-[1px]'
           />
           <Product
             size={{ w: 254, h: 394 }}
@@ -280,8 +298,9 @@ export default function Home() {
             text='Щетка для удаления пятен'
             price={{ first: "90 000 сум", second: "80 000 сум" }}
             imgMobile='product8'
-            imageClass='mobile:!h-[208px] mobile:w-[134px] mobile:mt-[-20px]'
+            imageClass='mobile:!h-[190px] mobile:w-[134px] mobile:mt-[10px] tablet:w-[200px] mobile:mt-[-25px] tablet:h-[280px] tablet:mt-[-20px]'
             noneLeftBorder
+            className='mobile:!border-l-[1px]'
           />
         </div>
         <div className='bg-[#BBBBBB] h-[1px] w-full mb-[100px] tablet:mb-10' />
