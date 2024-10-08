@@ -108,7 +108,7 @@ export default function Home() {
           <CountdownTimer />
         </div>
         <div className='bg-[#BBBBBB] h-[1px] w-full mb-[94px] tablet:mb-[59px] mobile:mb-[35px]' />
-        <div className='flex mb-[140px] px-[190px] tablet:px-0 tablet:mb-[56px] mobile:mb-[49px] tablet:flex-wrap tablet:gap-y-6 mobile:gap-y-4'>
+        <div className='flex mb-[140px] px-[148px] tablet:px-0 tablet:mb-[56px] mobile:mb-[49px] tablet:flex-wrap tablet:gap-y-6 mobile:gap-y-4'>
           <Product
             size={{ w: 254, h: 224 }}
             img='product1'
@@ -136,8 +136,8 @@ export default function Home() {
             lost='4'
             text='Карманная шкатулка для украшений'
             price={{ first: "100 000 сум", second: "50 000 сум" }}
-            imgMobile='product9'
-            imageClass='mobile:!h-[13] mobile:w-[130px] mobile:mt-[-25px] mt-10 tablet:w-[174px] tablet:h-[213px] tablet:mt-3'
+            imgMobile='mobileProduct9'
+            imageClass='mobile:!h-[13] mobile:w-[130px] mobile:mt-[-10px] mt-10 tablet:w-[174px] tablet:h-[213px] tablet:mt-3'
             noneLeftBorder
             className='mobile:!border-l-[1px]'
           />
@@ -190,7 +190,7 @@ export default function Home() {
             </p>
           </div>
         </motion.div>
-        <div className='flex mb-[140px] px-[190px] tablet:px-0 tablet:mb-[56px] mobile:mb-[49px] tablet:flex-wrap tablet:gap-y-6 mobile:gap-y-4'>
+        <div className='flex mb-[140px] px-[148px] tablet:px-0 tablet:mb-[56px] mobile:mb-[49px] tablet:flex-wrap tablet:gap-y-6 mobile:gap-y-4'>
           <Product
             size={{ w: 213, h: 403 }}
             img='product3'
@@ -209,7 +209,7 @@ export default function Home() {
             text='Наклейки для ковров (фигурные 4 шт.)'
             price={{ first: "125 000 сум", second: "100 000 сум" }}
             imgMobile='product4'
-            imageClass='mobile:!h-[250px] mobile:!w-[223px] mobile:mt-[-24px]'
+            imageClass='mobile:!h-[240px] mobile:!w-[223px] mobile:mt-[-25px]'
           />
           <Product
             size={{ w: 264, h: 352 }}
@@ -269,7 +269,7 @@ export default function Home() {
             className='tablet:block hidden absolute right-[55px] bottom-[-18px] mobile:w-[52px] mobile:bottom-[-5px]'
           />
         </motion.div>
-        <div className='flex mb-[96px] px-[190px] tablet:gap-y-6 tablet:mb-[56px] tablet:flex-wrap tablet:px-0 mobile:gap-y-8 mobile:mb-11'>
+        <div className='flex mb-[96px] px-[148px] tablet:gap-y-6 tablet:mb-[56px] tablet:flex-wrap tablet:px-0 mobile:gap-y-8 mobile:mb-11'>
           <Product
             size={{ w: 259, h: 385 }}
             img='product6'
@@ -297,8 +297,8 @@ export default function Home() {
             lost='2'
             text='Щетка для удаления пятен'
             price={{ first: "90 000 сум", second: "80 000 сум" }}
-            imgMobile='product8'
-            imageClass='mobile:!h-[190px] mobile:w-[134px] mobile:mt-[10px] tablet:w-[200px] mobile:mt-[-25px] tablet:h-[280px] tablet:mt-[-20px]'
+            imgMobile='mobileProduct8'
+            imageClass='mobile:!h-[208px] mobile:w-[134px] mobile:mt-[-10px] tablet:w-[200px] mobile:mt-[-25px] tablet:h-[280px] tablet:mt-[-20px]'
             noneLeftBorder
             className='mobile:!border-l-[1px]'
           />
